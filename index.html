@@ -12,53 +12,120 @@
   <body>
     <header class="navbar-container">
       <div class="logo">
-        <img src="./assets/img/sicoder-blackred (1).png" alt="Dicoding Indonesia" />
+        <img src="./assets/img/sicoder-blackred (1).png" alt="Syifa Personal Logo"/>
       </div>
       <nav class="nav-list">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Skill</a></li>
-          <li><a href="https://wa.me/6285861248076?text=Halo,%20saya%20tertarik%20dengan%20produk%20anda." target="_blank">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section id="home">
         <div class="content">
           <div class="content-description">
             <h1 class="title">Syifa Fauziyah Arizal</h1>
-            <p>
-              Saya adalah seorang profesional di bidang teknologi dengan pengalaman lebih dari [X] tahun sebagai software developer dan software tester.
-              Dengan kombinasi keahlian dalam pengembangan perangkat lunak dan pengujian, saya memiliki pemahaman mendalam tentang siklus hidup pengembangan
-              perangkat lunak dan praktik terbaik dalam memastikan kualitas aplikasi. Saya berdedikasi untuk menghasilkan kode yang efisien dan andal serta
-              mengidentifikasi dan mengatasi masalah sebelum produk dirilis.
-            </p>
-            <button>Lebih lanjut</button>
+            <p>Front-End Developer • UI/UX Enthusiast • Growth-Driven Learner</p>
+            <a href="#contact"><button>Let's Connect</button></a>
           </div>
           <div class="content-image">
-            <img src="./assets/img/logo cuy.png" alt="Dicoding Indonesia" />
+            <img src="./assets/img/logo cuy.png" alt="Syifa Personal Logo" />
           </div>
         </div>
-        <aside>
-          <div class="social-media">
+      </section>
+      <aside>
+        <div class="social-media">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/syfaarizal/?next=%2F"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/syifa-fauziyah-arizal-28a46a2aa/"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" aria-label="GitHub profile"><i class="fab fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <section id="about">
+        <div class="about-container">
+          <div class="about-image">
+            <img src="./assets/img/syifa-image.jpg" alt="Syifa Fauziyah Arizal" />
+          <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+              I am Syifa, a young Front-End Developer who is on the way to becoming my best version. I am building my portfolio 
+              and skills through a personal project called SICODER, and am actively learning JavaScript, UI/UX, and modern Web 
+              Development. I am self-learning, my intentions are big, and my goals are clear: success is not for style, but for impact.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
             <ul>
-              <li>
-                <a href="https://www.instagram.com/syfaarizal/?next=%2F"><i class="fab fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/syifa-fauziyah-arizal-28a46a2aa/"><i class="fab fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-github"></i></a>
-              </li>
+              <li>✅ HTML5, CSS3 (Flexbox & Grid)</li>
+              <li>✅ JavaScript (ES6+)</li>
+              <li>🧠 React (on progress)</li>
+              <li>🧠 TypeScript (learning)</li>
             </ul>
           </div>
-        </aside>
-      </section>
+          <div class="skill-card">
+            <h3>UI/UX</h3>
+            <ul>
+              <li>✅ Figma (Wireframing, Prototyping)</li>
+              <li>✅ Responsive Design</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <ul>
+              <li>✅ Git & GitHub (Workflow Dasar)</li>
+              <li>🧠 VS Code, Chrome DevTools</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    <section id="project">
+      <h2>Project</h2>
+      <div class="project-card">
+        <h3>SICODER — Personal Coding Playground</h3>
+        <p>
+          SICODER adalah ruang eksplorasi coding pribadi yang aku bangun dari nol, berisi dokumentasi challenge JavaScript, desain landing page, dan tracking progres belajarku. 
+          Tujuan utama dari proyek ini adalah jadi wadah transparan buat nunjukkin growth harian sekaligus jadi inspirasi developer lain.
+        </p>
+        <a href="https://github.com/username/sicoder" target="_blank">🔗 GitHub Repo</a>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Let’s connect & collaborate!</p>
+      <ul class="contact-list">
+        <li>📧 <strong>Email:</strong> <a href="mailto:syifa.arizal@email.com">syifairgi@gmail.com</a></li>
+        <li>💬 <strong>WhatsApp:</strong> <a href="https://wa.me/62xxxxxxx" target="_blank">+6259-2160-3000</a></li>
+        <li>🐱 <strong>GitHub:</strong> <a href="https://github.com/syifacode" target="_blank">syfaarizal</a></li>
+        <li>🔗 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/syifacode" target="_blank">syfaarizal</a></li>
+      </ul>
+    </section>
     </main>
   </body>
+  <footer class="footer">
+    <p>Let's stay connected 👉 <a href="mailto:syifa.arizal@email.com">syifa.arizal@email.com</a></p>
+    <div class="footer-social">
+      <a href="https://github.com/syifacode" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/syifacode" target="_blank">LinkedIn</a>
+    </div>
+    <p>&copy; 2025 Syifa Fauziyah Arizal. All rights reserved.</p>
+  </footer>
 </html>

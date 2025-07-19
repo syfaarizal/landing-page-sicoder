@@ -58,7 +58,7 @@ section {
 }
 
 .navbar-container .nav-list li:hover a {
-  background-color: #db1111;
+  background-color: #9e000d;
   color: white;
 }
 
@@ -111,7 +111,7 @@ main {
   margin-top: 1rem;
   border: 3px solid transparent;
   border-radius: 999px;
-  background-color: #db1111;
+  background-color: #9e000d;
   font-family: inherit;
   font-size: 1rem;
   font-weight: 700;
@@ -123,8 +123,8 @@ main {
 
 .content-description button:hover {
   background-color: transparent;
-  border-color: #000;
-  color: #db1111;
+  border-color: #9e000d;
+  color: #9e000d;
 }
 
 .content-image {
@@ -137,7 +137,7 @@ main {
 .content-image img {
   width: 27rem;
   height: auto;
-  border-radius: 300px;
+  border-radius: 100px;
   /* padding-left: 55px; */
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.562));
 }
@@ -157,7 +157,7 @@ main aside {
 .social-media ul {
   margin: auto;
   padding: 1.5rem 1rem;
-  background-color: #db1111;
+  background-color: #9e000d;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
   display: flex;
@@ -206,6 +206,7 @@ main aside {
   height: auto;
   border-radius: 20px 200px 20px 200px;
   box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.493);
+  transition: transform 0.3s ease;
 }
 
 .about-image img:hover {
@@ -238,6 +239,11 @@ main aside {
 
 .about-content h2:hover {
   transform: scale(1.03);
+}
+
+.about-content p,
+.about-content h2 {
+  transition: transform 0.3s ease;
 }
 
 #skills {
@@ -339,6 +345,14 @@ main aside {
 #project h2 {
   font-size: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin-inline: auto;
 }
 
 .project-card {
@@ -472,5 +486,9 @@ main aside {
 
   .skills-grid {
     grid-template-columns: 1fr;
+  }
+
+  main aside {
+    display: none;
   }
 }

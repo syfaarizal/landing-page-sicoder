@@ -4,8 +4,8 @@
 
 ## ✨ Demo Langsung
 
-- 🔗 [Live Preview](https://syfaarizal.github.io/sicoder-main-portfolio/)
-- 💻 [Source Code on GitHub](https://github.com/syfaarizal/sicoder-main-portfolio)
+- 🔗 [Live Preview](https://syfaarizal.github.io/landing-page-sicoder/)
+- 💻 [Source Code on GitHub](https://github.com/syfaarizal/landing-page-sicoder)
 
 ---
 
@@ -53,7 +53,7 @@ Halo! Saya **Syifa Fauziyah Arizal**, mahasiswa Teknik Informatika dan seorang p
 ## 📬 Kontak & Sosial
 
 - 📧 Email: [syifairgi@gmail.com](mailto:syifairgi@gmail.com)
-- 💼 LinkedIn: [Syifa Fauziyah Arizal](https://linkedin.com/in/syifa-fauziyah-arizal-28a46a2aa/)
+- 💼 LinkedIn: [Syifa Fauziyah Arizal](https://www.linkedin.com/in/syifaarizal/)
 - 🐱 GitHub: [@syfaarizal](https://github.com/syfaarizal)
 - 📸 Instagram: [@syfaarizal](https://www.instagram.com/syfaarizal)
 
@@ -63,8 +63,8 @@ Halo! Saya **Syifa Fauziyah Arizal**, mahasiswa Teknik Informatika dan seorang p
 
 1. Clone repository:
    ```bash
-   git clone https://github.com/syfaarizal/sicoder-main-portfolio.git
-   cd sicoder-main-portfolio
+   git clone https://github.com/syfaarizal/landing-page-sicoder.git
+   cd landing-page-sicoder
    ```
 2. Buka `index.html` langsung di browser, atau gunakan Live Server di VS Code.
 

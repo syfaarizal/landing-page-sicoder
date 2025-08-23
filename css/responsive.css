@@ -61,10 +61,12 @@
   .content {
     flex-direction: row;
     text-align: left;
+    gap: 2rem;
   }
     
   .floating-image {
     max-width: 400px;
+    margin-left: 2rem;
     margin-bottom: 0;
   }
     
@@ -274,6 +276,10 @@
   .skills-grid {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
+  }
+
+  .floating-image {
+    margin: 0;
   }
 }
 
